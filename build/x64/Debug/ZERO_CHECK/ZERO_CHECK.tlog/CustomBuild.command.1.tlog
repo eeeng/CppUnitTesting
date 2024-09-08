@@ -1,0 +1,10 @@
+^C:\USERS\SARIA\DESKTOP\EXAMPLE\BUILD\CMAKEFILES\3A922FC79166BE8E88C3A9F0D1DACE4D\GENERATE.STAMP.RULE
+setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/saria/Desktop/Example -BC:/Users/saria/Desktop/Example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/saria/Desktop/Example/build/Example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

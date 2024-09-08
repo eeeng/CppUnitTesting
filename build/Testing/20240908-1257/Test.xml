@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240908-1257-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.30.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-5BME7V3"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="21190"
+	TotalPhysicalMemory="7893"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2688"
+	>
+	<Testing>
+		<StartDateTime>Sep 08 17:10 T[NON-UTF-8-BYTE-0xFC]rkiye Standart Saati</StartDateTime>
+		<StartTestTime>1725804613</StartTestTime>
+		<TestList>
+			<Test>./test/ExampleTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>ExampleTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/ExampleTests</FullName>
+			<FullCommandLine>C:\Users\saria\Desktop\Example\build\test\Debug\ExampleTests.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.39406</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\saria\Desktop\Example\build\test\Debug\ExampleTests.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytU01PwkAQve+vGG9tAk0FkaSJBwL4kSgxFOOBErOWoWzc7tbdreC/d0sbYlGRoHPazryZeW+mM86FYCKBlDLhuLBQMoV+ED1oVDrSVDEaDVC/GJlFwzVNM45RImXC0aA2n59axVFSvJ6KUl4ck+nF1mYwrvq0oMDostHp5gN0zgx6ZNrc2gyuuHymvIyjeGNKihSFxaJp5tkOuFa0ojkpPGQK44cRbGxWi3h3vT65Rs4ljDA/Ib9o3kis5cdZ5rTbbgColFSBLZ5hbHAO+JpTzsw7yAWYJWqEN8pz1AEBwAo0wlWYp6Sg9bhk8RKYDqDj+9ZjeTnrBrw37FhSdwfS7bbIkVS7/09Vf/Fv+E0BLns3t8PBdzMHx4dUu3sWE1pSCv+8m7PzIwVX/evCzlsd6ylDznp3LTa4R3WZtRV+0I9bosFIQ7lLDjsNg1Q153Il6pf348WBosKrN7Ii7nthWIrwy0SvLq0q1wDOdDHSZ+RyFexf+q/DIcTWrRCTYTgJyQeXUXp3====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 08 17:10 T[NON-UTF-8-BYTE-0xFC]rkiye Standart Saati</EndDateTime>
+		<EndTestTime>1725804614</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
